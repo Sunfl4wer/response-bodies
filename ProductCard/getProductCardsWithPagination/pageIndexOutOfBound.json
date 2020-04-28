@@ -1,0 +1,20 @@
+Request:
+  GET /productcards?size=10&page=60
+Response:
+  Status: 200 OK
+  Body:
+  {
+    "data": [],
+    "meta": {
+        "pagination": {
+            "offset": 590,
+            "limit": 10,
+            "previousOffset": 580,
+            "nextOffset": null,
+            "currentPage": null,
+            "pageCount": 5,
+            "totalCount": 45
+        },
+        "sortedBy": null
+    }
+  }
