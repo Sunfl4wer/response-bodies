@@ -1,5 +1,5 @@
 Request: 
-    GET /productcards?category=PIZZA&size=1&page=1
+    GET /productcards?category=PIZZA&size=2&page=1
 Response:
 {
     "data": [
@@ -30,16 +30,44 @@ Response:
                 "selected": "EXTRA_CHEESE"
             },
             "category": "PIZZA"
+        },
+        {
+            "id": "5ea7feeca38f1755fe9ec247",
+            "name": "Octopus",
+            "imageURL": "https://www.google.com.vn",
+            "description": "Good for health",
+            "pricing": {
+                "sizeAndPrice": {
+                    "SMALL": 32.0,
+                    "MEDIUM": null,
+                    "LARGE": 22.0
+                },
+                "selected": "SMALL"
+            },
+            "crestSize": {
+                "THIN": true,
+                "MEDIUM": true,
+                "THICK": true
+            },
+            "additionalOption": {
+                "optionAndPrice": {
+                    "EXTRA_CHEESE": 22.0,
+                    "DOUBLE_CHEESE": 35.0,
+                    "TRIPLE_CHEESE": 20.0
+                },
+                "selected": "EXTRA_CHEESE"
+            },
+            "category": "PIZZA"
         }
     ],
     "meta": {
         "pagination": {
             "offset": 0,
-            "limit": 1,
+            "limit": 2,
             "previousOffset": null,
-            "nextOffset": 1,
+            "nextOffset": 2,
             "currentPage": 1,
-            "pageCount": 45,
+            "pageCount": 23,
             "totalCount": 45
         },
         "sortedBy": null
