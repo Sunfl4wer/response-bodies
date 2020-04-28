@@ -1,0 +1,25 @@
+Request:
+  GET /productcards?category=PIZZZA&size=2&page=1
+Response: 
+  Status: 400 Bad request
+  Body:
+  {
+      "errors": {
+          "timestamp": "2020-04-28T18:21:25.752169",
+          "status": "BAD_REQUEST",
+          "code": 400,
+          "message": "No document found.",
+          "reason": "Bad input params.",
+          "where": {
+              "category": "PIZZZA"
+          },
+          "when": {
+              "category": [
+                  "PIZZA",
+                  "SIDE_DISH",
+                  "DRINK",
+                  "DESSERT"
+              ]
+          }
+      }
+  }
