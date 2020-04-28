@@ -1,4 +1,5 @@
-Request: /productcards?category=PIZZA&size=1&page=1
+Request: 
+    GET /productcards?category=PIZZA&size=1&page=1
 Response:
 {
     "data": [
