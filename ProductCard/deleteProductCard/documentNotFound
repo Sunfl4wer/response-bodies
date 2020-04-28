@@ -1,0 +1,20 @@
+Request:
+  DELETE /productcards/5ea805d8023e594fde13cc1c
+Response:
+  Status: 404 NOT FOUND
+  Body:
+  {
+      "errors": {
+          "timestamp": "2020-04-28T18:38:54.1002745",
+          "status": "NOT_FOUND",
+          "code": 404,
+          "message": "Document not exist.",
+          "reason": "Bad path variable.",
+          "where": {
+              "id": "5ea805d8023e594fde13cc1c"
+          },
+          "when": {
+              "return": "null"
+          }
+      }
+  }
