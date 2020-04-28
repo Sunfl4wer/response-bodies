@@ -1,0 +1,5 @@
+Request:
+  DELETE  /productcards/5ea805d8023e594fde13cc1c
+Response:
+  Status: 204 NO CONTENT
+  Body:
