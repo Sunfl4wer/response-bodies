@@ -64,11 +64,11 @@ Response:
         ],
         "meta": {
             "pagination": {
+                "size": 2,
+                "currentPage": 1,
                 "offset": 0,
-                "limit": 2,
                 "previousOffset": null,
                 "nextOffset": 2,
-                "currentPage": 1,
                 "pageCount": 23,
                 "totalCount": 45
             },
