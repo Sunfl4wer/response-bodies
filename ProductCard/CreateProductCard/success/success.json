@@ -1,0 +1,30 @@
+{
+    "data": {
+        "id": "5ea7d9cb69374a1286b0e3fc",
+        "name": "Octopus",
+        "imageURL": "https://www.google.com.vn",
+        "description": "Good for health",
+        "pricing": {
+            "sizeAndPrice": {
+                "SMALL": 32.0,
+                "MEDIUM": null,
+                "LARGE": 22.0
+            },
+            "selected": "SMALL"
+        },
+        "crestSize": {
+            "THIN": true,
+            "MEDIUM": true,
+            "THICK": true
+        },
+        "additionalOption": {
+            "optionAndPrice": {
+                "EXTRA_CHEESE": 22.0,
+                "DOUBLE_CHEESE": 35.0,
+                "TRIPLE_CHEESE": 20.0
+            },
+            "selected": "EXTRA_CHEESE"
+        },
+        "category": "PIZZA"
+    }
+}
