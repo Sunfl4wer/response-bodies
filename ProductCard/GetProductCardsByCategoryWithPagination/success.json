@@ -1,0 +1,46 @@
+Request: /productcards?category=PIZZA&size=1&page=1
+Response:
+{
+    "data": [
+        {
+            "id": "5ea7feeba38f1755fe9ec246",
+            "name": "Octopus",
+            "imageURL": "https://www.google.com.vn",
+            "description": "Good for health",
+            "pricing": {
+                "sizeAndPrice": {
+                    "SMALL": 32.0,
+                    "MEDIUM": null,
+                    "LARGE": 22.0
+                },
+                "selected": "SMALL"
+            },
+            "crestSize": {
+                "THIN": true,
+                "MEDIUM": true,
+                "THICK": true
+            },
+            "additionalOption": {
+                "optionAndPrice": {
+                    "EXTRA_CHEESE": 22.0,
+                    "DOUBLE_CHEESE": 35.0,
+                    "TRIPLE_CHEESE": 20.0
+                },
+                "selected": "EXTRA_CHEESE"
+            },
+            "category": "PIZZA"
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "offset": 0,
+            "limit": 1,
+            "previousOffset": null,
+            "nextOffset": 1,
+            "currentPage": 1,
+            "pageCount": 45,
+            "totalCount": 45
+        },
+        "sortedBy": null
+    }
+}
